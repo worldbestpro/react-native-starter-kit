@@ -1,0 +1,33 @@
+{
+  "requirements": {
+    "Yarn": [
+      {
+        "rule": "cli",
+        "binary": "yarn",
+        "semver": "^1.2.0"
+      }
+    ],
+    "Node": [
+      {
+        "rule": "cli",
+        "binary": "node",
+        "semver": "^8.7.0"
+      }
+    ],
+    "Xcode": [
+      {
+        "rule": "cli",
+        "binary": "xcodebuild",
+        "version": "-version",
+        "semver": "^9.1.0"
+      }
+    ],
+    "node_modules": [
+      {
+        "rule": "dir",
+        "location": "node_modules",
+        "error": "Run `yarn` to install dependencies."
+      }
+    ]
+  }
+}
